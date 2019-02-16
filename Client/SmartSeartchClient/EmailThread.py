@@ -2,7 +2,6 @@ from threading import Thread
 import sqlite3
 import re
 import requests
-from wx.lib.pubsub import pub
 
 
 class EmailThread(Thread):
